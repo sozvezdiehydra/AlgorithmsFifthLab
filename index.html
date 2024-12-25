@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Flow Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="graph"></div>
+    <div id="controls">
+        <button id="addNode">Add Node</button>
+        <button id="addEdge">Add Edge</button>
+        <button id="removeNode">Remove Node</button>
+        <button id="removeEdge">Remove Edge</button>
+        <button id="saveGraph">Save Graph</button>
+        <button id="loadGraph">Load Graph</button>
+        <button id="startBFS">Start BFS</button>
+        <button id="startDFS">Start DFS</button>
+        <button id="startMST">Start MST</button>
+        <button id="startMaxFlow">Start Max Flow</button>
+        <button id="startDijkstra">Start Dijkstra</button>
+        <p id="description"></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vis-network@9.0.0/dist/vis-network.min.js"></script>
+    <script src="src/graph.js"></script>
+    <script src="src/dinic.js"></script>
+    <script src="src/network.js"></script>
+    <script src="src/script.js"></script>
+    <script src="src/mst.js"></script>
+    <script src="shortestpath.js"></script>
+</body>
+</html>
